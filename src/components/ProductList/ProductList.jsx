@@ -14,7 +14,7 @@ export const ProductList = (props) => {
     )
 
     return(
-        <ul>
+        <ul className="flex flex-wrap justify-start">
             {products}
         </ul>
     )

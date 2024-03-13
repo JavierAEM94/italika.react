@@ -14,7 +14,7 @@ export const ProductCard = ({title, description, price}) => {
             </p>
             <div className="flex items-center">
               <p className="mr-2 text-lg font-semibold text-gray-900 dark:text-white">
-                $20.00
+                $ {price}
               </p>
               <p className="text-base  font-medium text-gray-500 line-through dark:text-gray-300">
                 $25.00
